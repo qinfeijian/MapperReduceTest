@@ -32,6 +32,12 @@ import com.yunforge.mapreduce.demo1.HdfsUtils;
 
 import lombok.Cleanup;;
 
+/**
+ * 
+ * 作者:覃飞剑
+ * 日期:2018年6月12日
+ * 说明:将HDFS的/user/test下的所有文件 经过tika解析内容，把内容解析成json字符串存入file.json文件中
+ */
 public class HdfsUtilsTest {
 	
 	public static String uri = "hdfs://192.168.1.91:8020";  
