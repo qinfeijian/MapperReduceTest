@@ -33,17 +33,22 @@ import org.elasticsearch.common.xcontent.XContentFactory;
 import org.elasticsearch.transport.client.PreBuiltTransportClient;
 import org.xml.sax.ContentHandler;
 import sun.misc.BASE64Encoder;
-
+/**
+ * 
+ * 作者:覃飞剑
+ * 日期:2018年6月27日
+ * 说明:系统文件写入elasticsearch
+ */
 public class sysfiles {
 	
-	public static void main(String[] args) {
-		try {
-			sys();
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+//	public static void main(String[] args) {
+//		try {
+//			sys();
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
 
 	public static void sys() throws Exception {
 		List<InetSocketTransportAddress> addressList = new ArrayList<InetSocketTransportAddress>();

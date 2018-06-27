@@ -14,6 +14,12 @@ import org.elasticsearch.hadoop.mr.EsOutputFormat;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;  
 
+/**
+ * 
+ * 作者:覃飞剑
+ * 日期:2018年6月27日
+ * 说明:HDFS上的json文件写入elasticsearch
+ */
 public class WriteJsonToES {
 	
 	public static class SomeMapper extends Mapper<Object, Text, NullWritable, BytesWritable> {

@@ -14,23 +14,28 @@ import org.apache.tika.parser.Parser;
 import org.apache.tika.parser.pdf.PDFParser;
 import org.apache.tika.sax.BodyContentHandler;
 import org.xml.sax.SAXException;
-
+/**
+ * 
+ * 作者:覃飞剑
+ * 日期:2018年6月27日
+ * 说明:Tika解析文件内容的demo
+ */
 public class TikaDemo {
 
-	public static void main(final String[] args) {
-		try {
-			getMetadata();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (TikaException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SAXException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
+//	public static void main(final String[] args) {
+//		try {
+//			getMetadata();
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (TikaException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		} catch (SAXException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//	}
 
 	public static void parseToString() throws IOException, TikaException {
 		// Assume sample.txt is in your current directory
