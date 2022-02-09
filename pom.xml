@@ -23,7 +23,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<docker.image.prefix>agrdata</docker.image.prefix>
 		<spring.hadoop.version>2.5.0.RELEASE</spring.hadoop.version>
-		<hadoop.version>2.7.5</hadoop.version>
+		<hadoop.version>2.10.1</hadoop.version>
 		<java.version>1.8</java.version>
 		<elasticsearch.version>5.5.2</elasticsearch.version>
 		<transport.version>5.5.2</transport.version>
